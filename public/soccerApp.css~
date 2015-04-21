@@ -1,0 +1,132 @@
+body {
+  font: 10px sans-serif; 
+  background-image: url("football wallpaper free 20141.jpg"); 
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000; 
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+} 
+
+.grid .tick {
+stroke: lightgrey;
+stroke-opacity: 0.7;
+shape-rendering: crispEdges;
+}
+.grid path {
+stroke-width: 0;
+} 
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+} 
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 60px;                  
+  height: 28px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+} 
+
+.facePic { 
+  height: 70px;
+  width: 70px; 
+  border-radius: 50%;
+} 
+
+.bars:hover{
+  stroke: orange ; 
+  stroke-width: 2px;
+} 
+
+#yearBox{
+  height: 100px; 
+  width: 300px;
+} 
+
+#slider{
+  width: 600px;
+} 
+
+#CheckList {
+  height: 200px; 
+  width: 400px; 
+  position: relative;
+  border: 3px solid black; 
+  border-radius: 20px;
+} 
+
+ 
+#svg{
+  position: relative;
+} 
+
+
+#svgParent { 
+  width: 800px; 
+  height: 400px; 
+  background-color: white; 
+  border: 2px solid #004105; 
+  position: relative; 
+  border-radius: 20px; 
+  filter:alpha(opacity=100); 
+  -moz-opacity:1; 
+  opacity:1; 
+  -khtml-opacity:1; 
+} 
+
+.gameText { 
+  font-family:"helvetica"; 
+  //font-family: Georgia, Serif; 
+  font-size: 35px;
+  color: #161916;
+
+}
